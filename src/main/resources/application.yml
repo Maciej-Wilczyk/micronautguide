@@ -1,0 +1,8 @@
+#tag::config[]
+micronaut:
+  caches:
+    headlines: # <1>
+      charset: 'UTF-8'
+  server:
+    port: 8081
+#end::config[]
